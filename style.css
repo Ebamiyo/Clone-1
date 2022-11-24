@@ -18,7 +18,7 @@ body {
 
 .layer {
     background-color: rgba(5, 5, 5, 0.7);
-    opacity: 0.6;
+    opacity: 1;
     position: absolute;
     top: 0;
     left: 0;
@@ -93,10 +93,15 @@ body {
 }
 
 .buttons {
-    /* width: 5px; */
-    height: 2px;
+    padding-top: 1.3rem;
 }
 
+hr {
+    border: 0.5rem rgb(34,34,34)solid;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
 .bc_large_text {
     font-weight: 650;
     font-size: 3rem;
@@ -141,6 +146,7 @@ body {
 
 .middle_p {
     font-size: 2rem;
+    margin-top: 1rem;
 }
 
 .third_section {
@@ -148,10 +154,21 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+    gap: 100px;
 }
 
-.fourth_section {
-    color: white;
+.download_save {
+    padding-right: 3rem;
+
+}
+.download {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.save {
+    font-size: 1.5rem;
+    margin-top: 1rem;
 }
 
 .animation_container {
@@ -159,6 +176,152 @@ body {
 }
 
 .anim {
+    contain:content;
+    /* position: absolute;
+    bottom: 0; */
+    
+}
+
+.animation {
+    display: flex;
     position: absolute;
     bottom: 0;
+    left: 150px;
+    background-color: black;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.box {
+    width: 40%;
+}
+
+.downloading {
+    color: #0071eb;
+    font-weight: 400;
+}
+.strange-download {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth_section {
+    color: white;
+}
+
+.watch_stream {
+    width: 50%;
+    padding: 3rem;
+    padding-left: 6rem
+}
+
+.watch {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.stream {
+    font-size: 1.7rem;
+    margin-top: 1rem;
+}
+
+.kids {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create {
+    font-size: 3rem;
+    font-weight: 500;
+}
+.send {
+    font-size: 1.7rem;
+    padding-right: 1rem;
+    width: 85%;
+}
+
+.create_send {
+    padding-right: 3rem;
+}
+
+.sixth_section {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq {
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 2rem;
+}
+.faqs {
+    list-style-type: none;
+    width: 800px;
+    margin-top: 2.5rem;
+}
+
+.f_q {
+    position: relative;
+    background-color:#303030;
+    padding: 1rem 1.7rem; 
+    margin-bottom: 0.7rem;
+    font-weight: 400;
+    font-size: 1.7rem;
+}
+
+.svg-icon {
+    color: inherit;
+    width:20px;
+    position: absolute;
+    right: 0;
+}
+
+.bottom_buttons {
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+}
+.ready {
+    font-size: 1.3rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.footer {
+    color: #737373;
+    padding: 3rem 6rem 2rem;
+}
+
+.list_link {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.list_item {
+    list-style-type: none;
+    padding-top:1rem;
+    font-size: 13px;
+    
+}
+.link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.link {
+    color: #737373;
+    text-decoration: none;
+    padding-top: 1rem ;
+}
+
+.netnaija {
+    padding-top: 2rem;
 }
